@@ -1,0 +1,7 @@
+{
+    "service": "damienfa/slackhut-service",
+    "request": {
+        "method": "add",
+        "params": [1, 2]
+    }
+}

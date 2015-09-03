@@ -1,0 +1,18 @@
+# Service name (a combination of lower case letters, numbers, and dashes)
+name: slackhut-service
+
+# Service description
+description: Awesome service in python
+
+# GitHub source repo link (optional)
+# github_url: www.github.com/...
+
+# The service dependencies, in terms of the base OS and language runtime
+baseos: fedora
+stack: python
+
+# Persist the service between requests
+persistent: True
+
+# Restrict service access to authenticated users
+private: False
