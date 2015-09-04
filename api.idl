@@ -1,4 +1,7 @@
 interface Default {
     // add 2 integers and return the result
     add(x int, y int) int
+
+    // return a JSON Conf-File of the fields set in the PDF
+    generateConfFromPDF(pdf string) string
 }
